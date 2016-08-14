@@ -1,28 +1,10 @@
-== README
+Create a Test for a registration system from scratch. Make sure all the requirements pass.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Required features:
 
-Things you may want to cover:
+email should be in a valid format
+email should be unique
+all fields must be required (first_name, last_name, email, password)
+password field must be at least 6 characters long.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Before you work on these features, build the test cases, run the test cases, make sure it fails, build the features, and then test the test cases as you build the feature to make sure each test case passes. Do this until you feel comfortable with building test cases. 
